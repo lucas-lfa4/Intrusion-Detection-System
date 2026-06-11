@@ -1,6 +1,6 @@
-# Detecção de Intrusão em Tráfego DoH (DNS over HTTPS)
+# Detecção de intrusão em tráfego DoH (DNS over HTTPS)
 
-Projeto de desenvolvimento e avaliação de um Sistema de Detecção de Intrusão (IDS) especializado em identificar ataques e tunelamento malicioso ocultos no tráfego DoH (DNS over HTTPS). O projeto está dividido em duas fases principais: a **Replicação Metodológica** do artigo de referência e a **Validação de Generalização** utilizando um novo conjunto de dados.
+Projeto de desenvolvimento e avaliação de um Sistema de Detecção de Intrusão (IDS) especializado em identificar ataques e tunelamento malicioso ocultos no tráfego DoH (DNS over HTTPS). O projeto está dividido em duas fases principais: a **replicação metodológica** do artigo de referência e a **validação de generalização** utilizando um novo conjunto de dados.
 
 ---
 
@@ -26,7 +26,7 @@ Este repositório engloba o ciclo completo de testes do sistema, alimentado por 
 
 ### 2. Novo Dataset - fase de generalização e melhoria
 * **Nome:** 
-* **Objetivo:** Avaliar a robustez, adaptabilidade e capacidade de generalização do modelo proposto em um cenário de tráfego inédito e atualizado, simulando o comportamento do IDS em um ambiente de produção real.
+* **Objetivo:** 
 
 ---
 
