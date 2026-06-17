@@ -25,8 +25,9 @@ Este repositório engloba o ciclo completo de testes do sistema, alimentado por 
 * **Características:** Focado em 29 atributos estatísticos e comportamentais do fluxo de rede (como duração do fluxo e tamanho dos pacotes).
 
 ### 2. Novo Dataset - fase de generalização e melhoria
-* **Nome:** 
-* **Objetivo:** 
+* **Nome:** `CIRA-CIC-DoHBrw-2020-and-DoH-Tunnel-Traffic-HKD`, disponível em https://github.com/doh-traffic-dataset/CIRA-CIC-DoHBrw-2020-and-DoH-Tunnel-Traffic-HKD/
+* **Objetivo:** É formado pela junção do `CIRA-CIC-DoHBrw-2020`, artigo originalmente utilizado no artigo trabalhado na disciplina, com o `DoH-Tunnel-Traffic-HKD`, que acrescenta instâncias de ataques geradas por 3 novas ferramentas de tunneling: tuns, dnstt, e tcp_over_dns.
+* **Estrutura:** O dataset é estruturado em 3 camadas. A primeira classifica o total de instâncias entre NonDoH ou DoH; a segunda é como um "afunilamento" das instâncias DoH da primeira camada, classificando-as entre BenignDoH ou MaliciousDoH; A terceira camda é mais um "afunilamento", mas dessa vez das instâncias MaliciousDoH da segunda camada, classificando-as de acordo com a ferramenta de tunneling que a gerou (dns2tcp, iodine, dnscat2, dnstt, tcp_over_dns, tuns).
 
 ---
 
